@@ -12,7 +12,7 @@ using System;
 namespace Assignment4 {
     public class BaseConversion {
         public static void Main(string[] args) {
-            Console.WriteLine(RecursiveBaseConversion(8543, 38));
+            Console.WriteLine(RecursiveBaseConversion(8543, 36));
         }
 
         //Complete the below method according to the instructions found on the FYE website for assignment 4.
@@ -25,22 +25,11 @@ namespace Assignment4 {
             * @return             The final return will be a complete number in the other base number system (saved as a string to hold anything from 0 - 9, and A - Z).
          */
         public static String RecursiveBaseConversion(int numberToConvert, int numberSystemToConvertTo) {
-            if (numberSystemToConvertTo > 36)
-                throw new UnsupportedBaseChangeException(numberSystemToConvertTo);
-            if (numberToConvert <= numberSystemToConvertTo)
-                return DecToChar(numberToConvert % numberSystemToConvertTo);
-            return RecursiveBaseConversion((numberToConvert / numberSystemToConvertTo), numberSystemToConvertTo) + DecToChar(numberToConvert % numberSystemToConvertTo);
+            int mod = (numberToConvert % numberSystemToConvertTo);
+            if (numberToConvert <= numberSystemToConvertTo) {
+                return mod <= 9 ? Convert.ToString(mod) : Char.ToString((char)(mod + 55));
+            }
+            return RecursiveBaseConversion((numberToConvert / numberSystemToConvertTo), numberSystemToConvertTo) + (mod <= 9 ? Convert.ToString(mod) : Char.ToString((char)(mod + 55)));
         }
-
-        private static string DecToChar(int num) {
-            if (num <= 9)
-                return Convert.ToString(num);
-            return Char.ToString((char)(num + 55));
-        }
-    }
-
-    public class UnsupportedBaseChangeException : Exception {
-        public UnsupportedBaseChangeException() { }
-        public UnsupportedBaseChangeException(int baseSystem) : base($"base{baseSystem} is not supported. Try a base <= 36.") { }
     }
 }
