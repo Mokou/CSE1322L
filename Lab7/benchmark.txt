@@ -1,0 +1,35 @@
+using System;
+using System.Diagnostics;
+
+public class Program
+{
+	// This program shows that using bit arithmetic is faster than using Linq to search an array when deciding if a character is a vowel.
+	public static void Main()
+	{
+		var trials = 100000;
+		var letters = "abcdefghijklmnopqrstuvwxyz";
+		var timer = new Stopwatch();
+		timer.Start();
+		for (var i = 0; i < trials; i++)
+		{
+			VowelCountStr(letters);
+		}
+
+		timer.Stop();
+		Console.WriteLine("Time for Str  = " + timer.ElapsedMilliseconds + " msec");
+		timer.Reset();
+		timer.Start();
+		for (var i = 0; i < trials; i++)
+		{
+			VowelCountSpan(letters);
+		}
+
+		timer.Stop();
+		Console.WriteLine("Time for Span = " + timer.ElapsedMilliseconds + " msec");
+		Console.WriteLine("Done");
+	}
+
+	private static int VowelCountStr(string str) => str.Length == 0 ? 0 : VowelCountStr(str.Substring(1)) + (IsVowel(str[0]) ? 1 : 0);
+	private static int VowelCountSpan(ReadOnlySpan<char> spn) => spn.Length == 0 ? 0 : VowelCountSpan(spn.Slice(1)) + (IsVowel(spn[0]) ? 1 : 0);
+	private static bool IsVowel(char c) => "aeiouAEIUO".Contains(c);
+}

@@ -1,0 +1,11 @@
+/Users/mokou/Projects/CSE1322L/Lab1A/bin/Debug/netcoreapp3.1/Lab1A
+/Users/mokou/Projects/CSE1322L/Lab1A/bin/Debug/netcoreapp3.1/Lab1A.deps.json
+/Users/mokou/Projects/CSE1322L/Lab1A/bin/Debug/netcoreapp3.1/Lab1A.runtimeconfig.json
+/Users/mokou/Projects/CSE1322L/Lab1A/bin/Debug/netcoreapp3.1/Lab1A.runtimeconfig.dev.json
+/Users/mokou/Projects/CSE1322L/Lab1A/bin/Debug/netcoreapp3.1/Lab1A.dll
+/Users/mokou/Projects/CSE1322L/Lab1A/bin/Debug/netcoreapp3.1/Lab1A.pdb
+/Users/mokou/Projects/CSE1322L/Lab1A/obj/Debug/netcoreapp3.1/Lab1A.csprojAssemblyReference.cache
+/Users/mokou/Projects/CSE1322L/Lab1A/obj/Debug/netcoreapp3.1/Lab1A.AssemblyInfoInputs.cache
+/Users/mokou/Projects/CSE1322L/Lab1A/obj/Debug/netcoreapp3.1/Lab1A.AssemblyInfo.cs
+/Users/mokou/Projects/CSE1322L/Lab1A/obj/Debug/netcoreapp3.1/Lab1A.dll
+/Users/mokou/Projects/CSE1322L/Lab1A/obj/Debug/netcoreapp3.1/Lab1A.pdb

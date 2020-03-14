@@ -1,0 +1,11 @@
+/Users/mokou/Projects/CSE1322L/Assignment1/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.csprojAssemblyReference.cache
+/Users/mokou/Projects/CSE1322L/Assignment1/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.AssemblyInfoInputs.cache
+/Users/mokou/Projects/CSE1322L/Assignment1/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.AssemblyInfo.cs
+/Users/mokou/Projects/CSE1322L/Assignment1/Assignment1/bin/Debug/netcoreapp3.1/Assignment1
+/Users/mokou/Projects/CSE1322L/Assignment1/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.deps.json
+/Users/mokou/Projects/CSE1322L/Assignment1/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.runtimeconfig.json
+/Users/mokou/Projects/CSE1322L/Assignment1/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.runtimeconfig.dev.json
+/Users/mokou/Projects/CSE1322L/Assignment1/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.dll
+/Users/mokou/Projects/CSE1322L/Assignment1/Assignment1/bin/Debug/netcoreapp3.1/Assignment1.pdb
+/Users/mokou/Projects/CSE1322L/Assignment1/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.dll
+/Users/mokou/Projects/CSE1322L/Assignment1/Assignment1/obj/Debug/netcoreapp3.1/Assignment1.pdb
