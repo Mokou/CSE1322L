@@ -1,9 +1,0 @@
-C:\Users\Pierce McGoran\source\repos\Assignment3\bin\Debug\Assignment3.exe.config
-C:\Users\Pierce McGoran\source\repos\Assignment3\bin\Debug\Assignment3.exe
-C:\Users\Pierce McGoran\source\repos\Assignment3\bin\Debug\Assignment3.pdb
-C:\Users\Pierce McGoran\source\repos\Assignment3\obj\Debug\Assignment3.csprojAssemblyReference.cache
-C:\Users\Pierce McGoran\source\repos\Assignment3\obj\Debug\Assignment3.Form1.resources
-C:\Users\Pierce McGoran\source\repos\Assignment3\obj\Debug\Assignment3.Properties.Resources.resources
-C:\Users\Pierce McGoran\source\repos\Assignment3\obj\Debug\Assignment3.csproj.GenerateResource.cache
-C:\Users\Pierce McGoran\source\repos\Assignment3\obj\Debug\Assignment3.exe
-C:\Users\Pierce McGoran\source\repos\Assignment3\obj\Debug\Assignment3.pdb
